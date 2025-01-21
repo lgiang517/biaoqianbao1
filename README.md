@@ -4,12 +4,15 @@
 
 ## 快速开始
 
-你可以通过以下两种方式使用这个工具：
+你可以通过以下方式使用这个工具：
 
-1. 直接访问GitHub仓库：
-   - https://github.com/lgiang517/biaoqianbao1
+1. 直接在线使用：
+   - 访问：https://lgiang517.github.io/biaoqianbao1
    
-2. 本地运行：
+2. 查看源代码：
+   - GitHub仓库：https://github.com/lgiang517/biaoqianbao1
+   
+3. 本地运行：
    ```bash
    # 克隆仓库
    git clone https://github.com/lgiang517/biaoqianbao1.git
@@ -45,7 +48,7 @@
 
 - 前端：HTML5 + CSS3 + JavaScript
 - API：Coze API
-- 开发环境：本地Python HTTP服务器（可选）
+- 部署：GitHub Pages
 
 ## 文件结构
 
@@ -56,9 +59,9 @@
 ## 使用方法
 
 1. 打开应用：
-   - 直接在浏览器中打开 `index.html` 文件
+   - 直接访问在线版本：https://lgiang517.github.io/biaoqianbao1
    或者
-   - 启动本地服务器后访问 http://localhost:8000
+   - 在本地打开 `index.html` 文件
 
 2. 生成表情包：
    - 在输入框输入关键词，或点击下方情绪标签
@@ -74,6 +77,7 @@
 - 添加情绪快捷选项
 - 支持图片下载
 - 优化移动端适配
+- 部署到GitHub Pages
 
 ## 问题反馈
 
