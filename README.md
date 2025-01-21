@@ -2,26 +2,25 @@
 
 一个简单易用的AI表情包生成工具，可以根据情绪关键词生成相应的表情包图片。
 
-## 在线演示
+## 快速开始
 
 你可以通过以下两种方式使用这个工具：
 
-1. GitHub Pages在线演示：
-   - 访问：https://[你的GitHub用户名].github.io/emoji-generator
+1. 直接访问GitHub仓库：
+   - https://github.com/lgiang517/biaoqianbao1
    
 2. 本地运行：
    ```bash
    # 克隆仓库
-   git clone https://github.com/[你的GitHub用户名]/emoji-generator.git
+   git clone https://github.com/lgiang517/biaoqianbao1.git
    
    # 进入项目目录
-   cd emoji-generator
+   cd biaoqianbao1
    
-   # 启动本地服务器
+   # 使用浏览器打开index.html文件
+   # 或者启动一个本地服务器：
    python -m http.server 8000
-   
-   # 在浏览器中访问
-   http://localhost:8000
+   # 然后访问 http://localhost:8000
    ```
 
 ## 功能特点
@@ -46,7 +45,7 @@
 
 - 前端：HTML5 + CSS3 + JavaScript
 - API：Coze API
-- 开发环境：本地Python HTTP服务器
+- 开发环境：本地Python HTTP服务器（可选）
 
 ## 文件结构
 
@@ -56,27 +55,16 @@
 
 ## 使用方法
 
-1. 启动本地服务器：
-   ```bash
-   python -m http.server 8000
-   ```
+1. 打开应用：
+   - 直接在浏览器中打开 `index.html` 文件
+   或者
+   - 启动本地服务器后访问 http://localhost:8000
 
-2. 访问应用：
-   - 打开浏览器
-   - 访问 http://localhost:8000
-
-3. 生成表情包：
+2. 生成表情包：
    - 在输入框输入关键词，或点击下方情绪标签
    - 点击"生成表情包"按钮
    - 等待图片生成
    - 点击"下载图片"按钮保存
-
-## API配置
-
-使用 Coze API 进行表情包生成，需要配置以下参数：
-- API URL: https://api.coze.cn/v3/chat
-- BOT_ID
-- API Token
 
 ## 版本历史
 
@@ -86,3 +74,8 @@
 - 添加情绪快捷选项
 - 支持图片下载
 - 优化移动端适配
+
+## 问题反馈
+
+如果你在使用过程中遇到任何问题，欢迎在GitHub Issues中提出：
+https://github.com/lgiang517/biaoqianbao1/issues
