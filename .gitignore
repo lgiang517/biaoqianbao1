@@ -1,0 +1,23 @@
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 依赖目录
+node_modules/
+venv/
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 环境配置文件
+.env
+.env.local
+.env.*.local
+
+# 构建输出
+dist/
+build/

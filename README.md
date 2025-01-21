@@ -2,6 +2,28 @@
 
 一个简单易用的AI表情包生成工具，可以根据情绪关键词生成相应的表情包图片。
 
+## 在线演示
+
+你可以通过以下两种方式使用这个工具：
+
+1. GitHub Pages在线演示：
+   - 访问：https://[你的GitHub用户名].github.io/emoji-generator
+   
+2. 本地运行：
+   ```bash
+   # 克隆仓库
+   git clone https://github.com/[你的GitHub用户名]/emoji-generator.git
+   
+   # 进入项目目录
+   cd emoji-generator
+   
+   # 启动本地服务器
+   python -m http.server 8000
+   
+   # 在浏览器中访问
+   http://localhost:8000
+   ```
+
 ## 功能特点
 
 1. 情绪关键词生成
